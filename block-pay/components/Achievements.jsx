@@ -5,9 +5,9 @@ import Button from "@/components/Button";
 
 const Achievements = () => {
   return (
-    <section className="w-full px-4 sm:px-6 md:px-8 lg:px-16 xl:px-20 mt-8 mb-5 md:mb-2">
+    <section className="w-full  px-4 sm:px-6 md:px-8 lg:px-16 xl:px-20 mt-8 mb-5 md:mb-2">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col sm:flex-row justify-between items-center">
+        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center">
           <div className="flex flex-col justify-center mb-6 sm:mb-0">
             <h1 className="text-head text-color text-2xl md:text-3xl font-semibold">
               Our Success<br />so far

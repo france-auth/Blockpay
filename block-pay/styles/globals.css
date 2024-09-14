@@ -17,7 +17,6 @@ Note: The styles for this gradient grid background is heavily inspired by the cr
 
 * {
   scroll-behavior: smooth;
-  overflow-x: auto;
 }
 
 .main {

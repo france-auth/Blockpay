@@ -6,7 +6,7 @@ import "@/styles/globals.css";
 const Cards = () => (
   <div className="flex flex-col sm:flex-row pt-6 mb-6 justify-center items-center">
     {advantages.map((advantage, index) => (
-      <div key={index} className="card mx-4 flex flex-col items-center">
+      <div key={index} className="card mx-4 flex flex-col items-center my-4">
         <div className="card-icon mx-auto mb-1">
           <Image src={advantage.img} alt={advantage.id} />
         </div>
