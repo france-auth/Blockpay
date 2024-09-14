@@ -29,7 +29,7 @@ const Achievements = () => {
               ))}
             </ul>
 
-            <div className="text-center mt-4">
+            <div className="text-center mt-4 sm:mb-4 md:mb-0">
               <Button />
             </div>
           </div>
