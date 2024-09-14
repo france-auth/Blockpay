@@ -9,7 +9,7 @@ const Achievements = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center px-4 sm:px-6 md:px-8 lg:px-16 xl:px-20 mt-8 mb-5 md:mb-2">
           <div className="flex flex-col justify-center mb-6 sm:mb-0">
-            <h1 className="text-head text-color text-2xl lg:text-3xl font-semibold">
+            <h1 className="text-head text-color text-2xl sm:text-3xl font-semibold">
               Our Success<br />so far
             </h1>
 
@@ -37,7 +37,7 @@ const Achievements = () => {
           <Image
             src={achievements}
             alt=""
-            className="w-full h-auto sm:w-[50%]"
+            className="w-full h-auto sm:w-[700px] sm:h-[480px]"
           />
         </div>
       </div>
