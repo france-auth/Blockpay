@@ -17,7 +17,7 @@ Note: The styles for this gradient grid background is heavily inspired by the cr
 
 * {
   scroll-behavior: smooth;
-  overflow: auto;
+  overflow-x: auto;
 }
 
 .main {
@@ -29,7 +29,7 @@ Note: The styles for this gradient grid background is heavily inspired by the cr
 
 
 .text-head {
-  font-size: 47px;
+  font-size: 40px;
   font-weight: 500;
   line-height: 4.375rem;
 }
@@ -73,16 +73,13 @@ Note: The styles for this gradient grid background is heavily inspired by the cr
 }
 
 .card-icon {
-  width: 65px;
-  height: 65px;
+  width: 60px;
+  height: 60px;
   justify-items: center;
 }
 
 .card-head{
   color: #201E1E;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 20px;
 }
 
 .card-desc {

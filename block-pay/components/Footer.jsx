@@ -6,20 +6,20 @@ import { footerLinks } from "@/constants";
 const Footer = () => {
   return (
     <section className="flex flex-col w-full justify-between items-center bg-[#F7F7F7] py-8 px-4 sm:py-12 sm:px-8">
-      <div className="flex flex-col sm:flex-row justify-between items-center w-full max-w-screen-xl mx-auto">
-        <div className="flex flex-col mb-8 sm:w-[45%]">
-          <h2 className="text-3xl sm:text-4xl mb-5">
+      <div className="flex flex-col md:flex-row md:justify-between items-center w-full max-w-screen-lg mx-auto">
+        <div className="flex flex-col mb-8">
+          <h2 className="text-2xl md:text-3xl mb-5">
             Feedback and suggestions are appreciated
           </h2>
           <div className="flex flex-col">
             <Form />
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row sm:w-[55%]">
+        <div className="flex">
           {footerLinks.map((footerLink) => (
             <ul key={footerLink.id} className="flex flex-col mx-4 mb-4 sm:mb-0">
               <li className="mb-3">
-                <h2 className="text-3xl sm:text-4xl">{footerLink.name}</h2>
+                <h2 className="text-2xl md:text-3xl">{footerLink.name}</h2>
                 <p className="text-base">
                   {footerLink.desc1}
                   <br />
@@ -47,7 +47,7 @@ function Form() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col w-full max-w-screen-lg mx-auto">
+    <form onSubmit={handleSubmit} className="flex flex-col w-full max-w-screen-sm mx-auto">
       <input
         type="text"
         placeholder="Name"
