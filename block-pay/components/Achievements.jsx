@@ -37,7 +37,7 @@ const Achievements = () => {
           <Image
             src={achievements}
             alt=""
-            className="w-full h-auto "
+            className="w-full h-auto sm:w-[50%]"
           />
         </div>
       </div>
