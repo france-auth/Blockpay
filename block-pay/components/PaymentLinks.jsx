@@ -16,7 +16,7 @@ const PaymentLinks = () => {
               Payment Links
             </h1>
             <Image
-              className="w-full h-auto md:w-[600px] md:h-[144.31px] mt-4"
+              className="w-full h-auto md:w-[550px] md:h-[124.31px] mt-4"
               src={paymentID}
               alt={"generate payment link"}
             />
@@ -27,14 +27,14 @@ const PaymentLinks = () => {
             alt="cash payment"
           />
         </div>
-        <div className="flex flex-col sm:flex-row justify-between items-center mt-8">
+        <div className="flex flex-col md:flex-row justify-between items-center mt-8">
           <Image
-            className="w-full h-auto md:w-[469px] md:h-[480px] mb-4 sm:mb-0"
+            className="w-full h-auto md:w-[429px] md:h-[450px] mb-4 sm:mb-0"
             src={getpayName}
             alt="get payment name"
           />
           <Image
-            className="w-full h-auto md:w-[450px] md:h-[480px] mt-4 sm:mt-0"
+            className="w-full h-auto md:w-[420px] md:h-[450px] mt-4 sm:mt-0"
             src={genpaylink}
             alt="generate payment link"
           />
